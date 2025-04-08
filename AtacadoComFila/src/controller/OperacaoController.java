@@ -15,7 +15,7 @@ public class OperacaoController {
 			Float vP = c.getValorPecas();
 			
 			Float total = qP * vP;
-			System.out.println(n + " - Total da compra: " + total);
+			System.out.println(n + " - Total da compra: R$" + total);
 		}
 	}
 }
